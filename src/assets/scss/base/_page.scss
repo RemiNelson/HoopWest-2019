@@ -18,6 +18,12 @@
 			}
 		}
 
+  html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
 	body {
 		background: _palette(bg);
 

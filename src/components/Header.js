@@ -1,24 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import logo from '../images/pic03.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <span className="icon"><img className="logo" src={logo} alt="" /></span>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Hoop West 2019</h1>
+                <p>A fan-made responsive schedule for Hoop West 2019</p>
+                <p><a href="http://www.hoopwest.ca/2019-workshops/">Click here for the official schedule</a></p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Friday</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Saturday</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Sunday</a></li>
+                
             </ul>
         </nav>
     </header>

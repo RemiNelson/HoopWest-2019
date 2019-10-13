@@ -45,6 +45,11 @@
 				display: block !important;
 			}
 
+      .timeslot{
+        border-bottom: dashed 1px white;
+        margin-bottom: 1rem;
+      }
+
 			.close {
 				display: block;
 				position: absolute;
@@ -87,6 +92,48 @@
 			}
 
 		}
+
+    .flex{
+      display: flex;
+      flex-wrap: wrap;
+
+      & .column{
+        width: 48%;
+
+        &:nth-child(odd){
+          margin-right: 2%;
+        }
+
+        &:nth-child(even){
+          margin-left: 2%;
+        }
+
+        & .title{
+          -ms-word-break: break-all;
+          word-break: break-all;
+
+          /* Non standard for WebKit */
+          word-break: break-word;
+
+          -webkit-hyphens: auto;
+          -moz-hyphens: auto;
+          hyphens: auto;
+        }
+      }
+    }
+    .time-label{
+      width: 100%;
+      margin-left: -1rem;
+    }
+
+    .time-link{
+      margin: 0 .5rem;
+    }
+
+    .to-top{
+      text-align: right;
+      width: 100%;
+    }
 
 		@include breakpoint(small) {
 			article {
