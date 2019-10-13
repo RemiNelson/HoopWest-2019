@@ -11,7 +11,7 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Hoop West 2019</h1>
                 <p>A fan-made responsive schedule for Hoop West 2019</p>
-                <p><a href="http://www.hoopwest.ca/2019-workshops/">Click here for the official schedule</a></p>
+                <p><a href="http://www.hoopwest.ca/2019-workshops/">Click here for the official site</a></p>
             </div>
         </div>
         <nav>
