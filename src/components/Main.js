@@ -74,7 +74,7 @@ class Main extends React.Component {
             </div>
             <div className="column">
               <div className="title"><h3>(Behind the) Back at it</h3></div>
-              <em><b>Karla Snow</b></em>
+              <em><b>Carla Snow</b></em>
               <p>
                 We’ll play with a number of “yeah you did!” moves performed behind the back, utilizing rolls, catches, jumps, and tosses, and we’ll take those badass moves and combine them into some fun combinations to incorporate into your flow. This is an all-levels class with lots of variations to challenge you wherever you are in your hoop practice.
               </p>
