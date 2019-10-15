@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Fan-made responsive schedule for Hoop West 2019' },
-              { name: 'keywords', content: 'hoop west, hoop, west, conference, festival, dance, workshop' },
+              { name: 'description', content: 'Fan-made responsive schedule for HoopWest 2019' },
+              { name: 'keywords', content: 'hoopwest, hoop, west, conference, festival, dance, workshop' },
               { name: 'image', content: seoimage},
               { name: 'og:image', content: seoimage},
             ]}

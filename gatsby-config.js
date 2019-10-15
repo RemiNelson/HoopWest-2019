@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Hoop West 2019",
+    title: "HoopWest 2019",
     author: "Remi Nelson",
     description: "Fan made responsive schedule for hoop west 2019"
   },
@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Hoop West 2019',
-        short_name: 'Hoop West',
+        name: 'HoopWest 2019',
+        short_name: 'HoopWest',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
