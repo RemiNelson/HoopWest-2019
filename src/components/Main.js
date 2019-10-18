@@ -68,8 +68,9 @@ class Main extends React.Component {
             <div className="column">
               <div className="title"><h3>Legstravaganza!</h3></div>
               <em><b>Kelly James</b></em>
+              <em>Beginner-Intermediate</em>
               <p>
-                <em>Beginner-Intermediate</em>
+               Legs! Legs! What’s on the menu?…Leg Hooping! Explore hooping on the legs, including rhythm and timing, moving the feet for travelling and recovery methods. Learn pick up techniques for when the hoop falls…because it will! Play with off the body, leg focused tricks to expand lower body hoop flow.
               </p>
             </div>
             <div className="column">
@@ -188,8 +189,9 @@ class Main extends React.Component {
             <div className="column">
               <div className="title"><h3>Legstravaganza!</h3></div>
               <em><b>Kelly James</b></em>
+              <em>Intermediate-Advanced</em>
               <p>
-                <em>Intermediate-Advanced</em>
+               Already fairly comfortable with leg hooping? Delve deeper into on body leg hooping, including full body movement, below the knee and ankle hooping, and hooping on 1 leg. Discover more ways to pick up the hoop with the feet. Explore using the legs to transition among different combos, such and wedgies and escalators.
               </p>
             </div>
             <div className="column">
@@ -250,6 +252,9 @@ class Main extends React.Component {
             <div className="column">
               <div className="title"><h3>Hoop DANCE</h3></div>
               <em><b>Wolf Flow</b></em>
+              <p> This workshop is a dance class, and all about how to add a little more dance technique into your flow, so be ready to step away from your hula hoop for parts of this class! We will be exploring some beginner dance technique in combination with hoop moves with some across the floor dance exercises and combos that can be added into your hoop flow! Focusing on adding technique to create new or more visually appealing movements, lines, and or energy to your flow.</p>
+
+              <p>No prior dance experience required, just come as you are, & be ready to expand your flow and find new movement within yourself!</p>
             </div>
             <div  className="to-top"><a href="#saturday-top"><span className="icon fa-angle-double-up"></span></a></div>
           </div>
