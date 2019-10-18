@@ -68,7 +68,7 @@ class Main extends React.Component {
             <div className="column">
               <div className="title"><h3>Legstravaganza!</h3></div>
               <em><b>Kelly James</b></em>
-              <em>Beginner-Intermediate</em>
+              <p><em>Beginner-Intermediate</em></p>
               <p>
                Legs! Legs! What’s on the menu?…Leg Hooping! Explore hooping on the legs, including rhythm and timing, moving the feet for travelling and recovery methods. Learn pick up techniques for when the hoop falls…because it will! Play with off the body, leg focused tricks to expand lower body hoop flow.
               </p>
@@ -188,7 +188,7 @@ class Main extends React.Component {
           <div className="timeslot flex">
             <div className="column">
               <div className="title"><h3>Legstravaganza!</h3></div>
-              <em><b>Kelly James</b></em>
+              <p><em><b>Kelly James</b></em></p>
               <em>Intermediate-Advanced</em>
               <p>
                Already fairly comfortable with leg hooping? Delve deeper into on body leg hooping, including full body movement, below the knee and ankle hooping, and hooping on 1 leg. Discover more ways to pick up the hoop with the feet. Explore using the legs to transition among different combos, such and wedgies and escalators.
